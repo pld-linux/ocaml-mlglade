@@ -29,6 +29,8 @@ stworzonych przez Glade w zbiór modu³ów dla OCamla.
 # this doesn't really matter (package makes little use of autoconf)
 autoconf
 %configure
+sed -e 's/-g//' Makefile > Makefile.tmp
+mv -f Makefile.tmp Makefile
 %{__make}
 %{__make} docs
 
