@@ -1,9 +1,9 @@
 Summary:	Glade to OCaml compiler
 Summary(pl):	Kompilator Glade do OCamla
 Name:		ocaml-mlglade
-Version:	0.5
+Version:	0.6
 Release:	1
-License:	LGPL
+License:	LGPL but see LICENSE
 Group:		Development/Building
 Vendor:		Benjamin Monate <Benjamin.Monate@lri.fr>
 URL:		http://www.lri.fr/~monate/mlglade/
@@ -43,13 +43,11 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install mlglade.opt $RPM_BUILD_ROOT%{_bindir}/mlglade
 install mlglade.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf BUGS README CHANGES LICENCE TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz tutorial/*.html tutorial/*.png
+%doc BUGS README CHANGES LICENCE TODO tutorial/*.html tutorial/*.png
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
