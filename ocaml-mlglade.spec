@@ -8,8 +8,9 @@ Group:		Development/Building
 Vendor:		Benjamin Monate <Benjamin.Monate@lri.fr>
 URL:		http://www.lri.fr/~monate/mlglade/
 Source0:	http://www.lri.fr/~monate/mlglade/mlglade-%{version}.tgz
-BuildRequires:	ocaml >= 3.04
+BuildRequires:	autoconf
 BuildRequires:	hevea
+BuildRequires:	ocaml >= 3.04
 # note: it is not required to build, just to use
 Requires:	ocaml-lablgtk
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
