@@ -8,6 +8,7 @@ Group:		Development/Building
 Vendor:		Benjamin Monate <Benjamin.Monate@lri.fr>
 URL:		http://www.lri.fr/~monate/mlglade/
 Source0:	http://www.lri.fr/~monate/mlglade/mlglade-%{version}.tgz
+# Source0-md5:	6130208b3435d0867efab04449fb355d
 BuildRequires:	autoconf
 BuildRequires:	hevea
 BuildRequires:	ocaml >= 3.04
