@@ -2,7 +2,7 @@ Summary:	Glade to OCaml compiler
 Summary(pl):	Kompilator Glade do OCamla
 Name:		ocaml-mlglade
 Version:	0.9
-Release:	1
+Release:	2
 License:	LGPL but see LICENSE
 Group:		Development/Building
 Vendor:		Benjamin Monate <Benjamin.Monate@lri.fr>
