@@ -2,7 +2,7 @@ Summary:	Glade to OCaml compiler
 Summary(pl):	Kompilator Glade do OCamla
 Name:		ocaml-mlglade
 Version:	0.9
-Release:	2
+Release:	3
 License:	LGPL but see LICENSE
 Group:		Development/Building
 Vendor:		Benjamin Monate <Benjamin.Monate@lri.fr>
@@ -10,7 +10,7 @@ URL:		http://www.lix.polytechnique.fr/Labo/Benjamin.Monate/mlglade/
 Source0:	http://www.lix.polytechnique.fr/Labo/Benjamin.Monate/mlglade/mlglade-%{version}.tgz
 # Source0-md5:	cec50caaf0a7fbcb332cdd2963816511
 BuildRequires:	autoconf
-BuildRequires:	hevea
+BuildRequires:	hevea >= 1.06-3
 BuildRequires:	ocaml >= 3.07
 # note: it is not required to build, just to use
 Requires:	ocaml-lablgtk
