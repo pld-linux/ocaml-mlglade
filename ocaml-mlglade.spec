@@ -1,5 +1,5 @@
 Summary:	Glade to OCaml compiler
-Summary(pl):	Kompilator Glade do OCamla
+Summary(pl.UTF-8):   Kompilator Glade do OCamla
 Name:		ocaml-mlglade
 Version:	0.9
 Release:	3
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Mlglade is a tool to translate a Glade XML file into a set of modules
 for OCaml.
 
-%description -l pl
-Mlglade jest narzêdziem do t³umaczenia plików w formacie XML
-stworzonych przez Glade w zbiór modu³ów dla OCamla.
+%description -l pl.UTF-8
+Mlglade jest narzÄ™dziem do tÅ‚umaczenia plikÃ³w w formacie XML
+stworzonych przez Glade w zbiÃ³r moduÅ‚Ã³w dla OCamla.
 
 %prep
 %setup -q -n mlglade
