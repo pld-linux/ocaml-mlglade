@@ -1,5 +1,5 @@
 Summary:	Glade to OCaml compiler
-Summary(pl.UTF-8):   Kompilator Glade do OCamla
+Summary(pl.UTF-8):	Kompilator Glade do OCamla
 Name:		ocaml-mlglade
 Version:	0.9
 Release:	3
